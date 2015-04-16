@@ -1,0 +1,12 @@
+Package: lrecImpact
+Title: Analyzing the impact of a Low Risk Express Care program 
+Version: 0.0.0.9000
+Date: 2015-02-13
+Author: Linh Tran
+Description: This package (1) organizes the LREC data into a form that can be modeled, (2) screens each of the covariates to determine the covariates to be included, (3) fits each of the required conditional expectations using Super Learning, (4) estimates the target parameters using the ltmle package, and (5) summarizes and plots the results and summaries.
+Depends: R (>= 3.1.1)
+License: GPL-2
+LazyData: true
+Imports: survival, xlsx, reshape, reshape2, Hmisc, geepack, ltmle, magrittr
+Suggests: knitr
+VignetteBuilder: knitr
